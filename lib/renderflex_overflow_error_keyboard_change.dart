@@ -4,7 +4,6 @@ class KeyboardChangeCausingOverflowWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
       appBar: AppBar(title: Text('Keyboard overflow')),
       body: Padding(
         padding: const EdgeInsets.all(15.0),

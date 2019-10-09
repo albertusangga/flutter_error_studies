@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_error_studies/center_trouble.dart';
 import 'package:flutter_error_studies/missing_material_error.dart';
 import 'package:flutter_error_studies/renderflex_overflow_error.dart';
 import 'package:flutter_error_studies/renderflex_overflow_error2.dart';
@@ -77,6 +78,9 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               makeDemoEntry(context, "Keyboard overflows",
                   KeyboardChangeCausingOverflowWidget()),
+              makeDemoEntry(context, "Unable to Center",
+                UnableToCenterTextWidget(),
+              )
             ],
           ),
         ),
