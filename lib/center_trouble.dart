@@ -12,6 +12,8 @@ class UnableToCenterTextWidget extends StatelessWidget {
       body: ListView(
         children: [
           Row(
+            // Fix is by uncommenting line below:
+            //mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text('I want this to be centered', textAlign: TextAlign.center,)
             ],
