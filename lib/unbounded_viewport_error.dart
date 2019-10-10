@@ -15,7 +15,7 @@ class UnboundedViewportError extends StatelessWidget {
             Text("Hello, world!"),
             // Resolution: wrap GridSearch inside an Expanded widget or
             // a widget with a fixed height such as a Container.
-            Expanded(child: GridSearch()),
+            GridSearch(),
           ],
         ),
       )

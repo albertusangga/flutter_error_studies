@@ -6,7 +6,7 @@ class KeyboardChangeCausingOverflowWidget extends StatelessWidget {
     return Scaffold(
       // One potential fix is by uncommenting line below
       // Another is by wrapping inside ListView instead of Column
-       resizeToAvoidBottomPadding: false,
+//       resizeToAvoidBottomPadding: false,
       appBar: AppBar(title: Text('Keyboard overflow')),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
